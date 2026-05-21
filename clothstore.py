@@ -1,11 +1,6 @@
 """
-╔══════════════════════════════════════════════════════════╗
-║       CLOTH STORE MANAGEMENT SYSTEM                      ║
-║       Python Turtle GUI + SQLite RDBMS                   ║
-╚══════════════════════════════════════════════════════════╝
-
-Run:  python cloth_store.py
-Requires: Python 3.x (standard library only — tkinter + sqlite3 + turtle)
+CLOTH STORE MANAGEMENT SYSTEM
+Python Turtle GUI + SQLite RDBMS                   
 """
 
 import sqlite3
@@ -15,9 +10,7 @@ import turtle
 import time
 import os
 
-# ─────────────────────────────────────────────
 #  DATABASE LAYER
-# ─────────────────────────────────────────────
 
 DB_FILE = "cloth_store.db"
 
@@ -1085,9 +1078,7 @@ class App(tk.Tk):
         self.pages["Dashboard"].refresh()
 
 
-# ─────────────────────────────────────────────
 #  ENTRY POINT
-# ─────────────────────────────────────────────
 
 if __name__ == "__main__":
     # 1. Turtle splash screen
