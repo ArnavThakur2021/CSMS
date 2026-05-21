@@ -1,0 +1,5 @@
+Database Schema (SQLite)
+categories   id, name, created
+products     id, name, category_id→, price, stock, fabric, color, size, added_on
+customers    id, name, phone, email, address, joined
+sales        id, customer_id→, product_id→, quantity, unit_price, total, sale_date
